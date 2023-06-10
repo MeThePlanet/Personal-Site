@@ -1,0 +1,170 @@
+
+h1{
+    color: #393E46;
+    margin: 50px auto 0 auto;
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #345269;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:  #345269;
+}
+
+p{
+    color: #393E46;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 135%;
+}
+
+.top-container{
+    background-color: #e0e0e0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: #EFEFEF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottom-container{
+    background-color: #477b9e;
+    padding: 30px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+    width: 9%;
+}
+
+.mountain-img{
+    width: 20%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    width: 11%;
+}
+
+.profile{
+    padding: 20px;
+}
+
+a{
+    color:  #2D4059; 
+}
+
+a:hover{
+    color: #EAEAEA;
+    background-color: #477b9e;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+hr{
+    border-style: dotted none none;
+    height: 0px;
+    width: 5%;
+    border-width: 5px;
+    color: #345269;
+    padding: 10px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row-1{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+.skill-row-2{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row-3{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.photography{
+    float: left;
+    margin-right: 30px;
+}
+
+.web-development{
+    float: right;
+    margin-left: 30px;
+}
+
+.chess{
+    float: left;
+    margin-right: 30px;
+}
+.card-games{
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-link{
+    color: #2D4059;
+    padding: 30px;
+}
+
+.copyright{
+    color: #EAEAEA;
+}
+
+.btn{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #477b9e;
+    padding: 10px 30px;
+    border: solid #0066cc 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 15px;
+    transition : 236ms;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition : 236ms;
+    padding: 10px 45px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #477b9e;
+    border: solid 0px #0066cc;
+}
+
